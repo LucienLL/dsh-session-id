@@ -1,0 +1,4 @@
+# dsh-session-id bundle patch: 应用时向 profile 组合树插入本插件行。
+- insert:
+    - id: dsh-session-id
+      name: dsh-session-id
