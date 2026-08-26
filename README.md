@@ -5,14 +5,14 @@
 ## 功能
 
 - 会话头部右侧显示当前会话 ID（超长时截断显示，悬停可见完整 ID）
-- 点击复制完整 ID，短暂显示「已复制」
+- 点击复制完整 ID，短暂显示「已复制」（需安全上下文 localhost/https；剪贴板不可用时无反馈）
 
 ## 安装
 
 ```sh
 dsh plugin --profile web add dsh-session-id
-# 或本地开发：
-dsh plugin --profile web add link:<本仓库路径>
+# 或本地开发（在仓库目录内执行）：
+dsh plugin --profile web add .
 ```
 
 安装后重启 `dsh web` 生效。
