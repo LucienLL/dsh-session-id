@@ -1,6 +1,6 @@
 {
   "name": "dsh-session-id",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "在 DSH Web UI 会话头部显示当前对话 ID，点击一键复制到剪贴板",
   "type": "module",
   "main": "lib/index.js",
